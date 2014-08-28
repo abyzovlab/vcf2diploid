@@ -4,7 +4,7 @@ import java.io.*;
 import java.lang.reflect.*;
 
 /**
- * Class to construct diploid genome from genome reference and genome variants
+ * Class to construct diploid genome from genome reference and genome variant
  * calls in VCF format.
  *
  * @author Alexej Abyzov
@@ -15,7 +15,7 @@ public class VCF2diploid
 
     private String[] _chrFiles = null, _vcfFiles = null;
     private String   _id = "";
-    private ArrayList<Variant>[] _variants = new ArrayList[25];
+    private ArrayList<Variant>[] _variants = new ArrayList[86];
 	
     public VCF2diploid(String[] chrFiles,String[] vcfFiles,
 		       String id,boolean pass)

@@ -247,8 +247,8 @@ class VCFparser
     	else if (chr.equalsIgnoreCase("GL000194.1")) ret = 82;
     	else if (chr.equalsIgnoreCase("GL000225.1")) ret = 83;
     	else if (chr.equalsIgnoreCase("GL000192.1")) ret = 84;
-    	else if (chr.equalsIgnoreCase("NC_007605")) ret = 85;
-    	else if (chr.equalsIgnoreCase("hs37d5")) ret = 86;
+    	else if (chr.equalsIgnoreCase("NC_007605"))  ret = 85;
+    	else if (chr.equalsIgnoreCase("hs37d5"))     ret = 86;
 	else
 	    try {
 		ret = Integer.parseInt(chr);
